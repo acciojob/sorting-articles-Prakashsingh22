@@ -1,16 +1,25 @@
 /*  your css code here. If applicable */
 body {
       font-family: Arial, sans-serif;
-      margin: 40px;
+      margin:0;
+	background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUBM2EZDVjxSXAejKN1fr8XDiGZ9MJsRtUSA&s');
+	background-size:cover;
+	background-position:center;
     }
     ul {
+		background-size:cover;
+		background-position:center;
+		align-items: center;              
+         justify-content: space-between;
+		
+    padding:1px;
       padding:10;
       width: 400px;
       margin:0px auto;
     }
     li {
       background: white;
-      margin: 5px 0;
+      margin: 1px 0;
       padding: 10px;
-      box-shadow:  2px 4px rgba(0,0,0,0.1);
+      box-shadow:  1px 4px rgba(0,0,0,0.1);
     }
