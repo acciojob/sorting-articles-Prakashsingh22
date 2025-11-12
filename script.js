@@ -14,7 +14,7 @@ const bands = ['The Plot in You',
 			   'An Old Dog'
 			  ];
     function strip(article) {
-      return article.replace(/^(a |an |the )/i, '').trim();
+       return article.trim().replace(/^(a |an |the )/i, '');
     }
 
     // Sort ignoring A, An, The
